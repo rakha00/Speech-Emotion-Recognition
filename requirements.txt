@@ -1,0 +1,13 @@
+streamlit==1.46.1
+# For Streamlit Cloud, it's often best to let it handle the torch build.
+# If you encounter issues, you might need to specify a CPU-only version.
+torch==2.7.0
+torchaudio==2.7.0
+transformers==4.49.0
+librosa==0.11.0
+scikit-learn==1.6.1
+pandas==2.3.0
+numpy==2.2.0
+joblib==1.4.2
+audio-recorder-streamlit==0.0.10
+soundfile
